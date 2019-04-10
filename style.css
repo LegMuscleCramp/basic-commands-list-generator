@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
+
+html,body {
+  height: 100vh;
+}
+
+body {
+  width: 100vw;
+  margin: 0;
+  display: inline-block;
+  background-color: #444;
+  overflow: hidden;
+}
+
+#container {
+  border-radius: 15px;
+  width: 90vw;
+  height: 90vh;
+  margin: 5vh 5vw;
+
+  /* font properties */
+  font-family: 'Fjalla One';
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #fff;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+#new-list-button {
+  width: 100%;
+  background-color: #00bcff;
+  border: 0;
+  border-radius: 15px;
+  padding: 20px;
+
+  /* font properties */
+  letter-spacing: 2px;
+  font: inherit;
+  color: inherit;
+  text-transform: inherit;
+}
+
+#commands-box {
+  border-radius: 15px;
+  width: 100%;
+  height: 50vh;
+  margin: 20px auto;
+  overflow: hidden;
+  background-color: #ddd;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#current-command {
+  color: #444;
+  margin: 0;
+  font-family: 'Fjalla One';
+  border-radius: 15px;
+  font-size: 32px;
+  padding: 0 25px;
+  text-align: center;
+}
+
+#arrows-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.arrow {
+  width: 44vw;
+  font-size: 60px;
+  background-color: #00bcff;
+  border-radius: 15px;
+  text-align: center;
+}
