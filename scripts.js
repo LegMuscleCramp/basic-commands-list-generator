@@ -35,7 +35,7 @@ $(document).ready(function(){
 
   // generates basic list on click and displays first command (fall in)
   $("#new-list-button").on("click",function(){
-    document.getElementById("current-command").style.fontSize = "72px";
+    document.getElementById("current-command").style.fontSize = "50px";
     shuffle(randomBasicCommands);
     generatedList = randomBasicCommands.slice(0,9);
     var randomEyesRight = getRandomInt(generatedList.length);
